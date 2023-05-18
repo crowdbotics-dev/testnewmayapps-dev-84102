@@ -21,7 +21,13 @@ const styles = StyleSheet.create({
     width: 140,
     backgroundColor: "#E4E4E4",
     borderRadius: 0,
-    color: "#777777"
+    color: "#777777",
+    transform: [{
+      rotate: "0deg"
+    }],
+    top: 0,
+    left: 216,
+    position: "absolute"
   },
   lMLyxcup: {
     width: 100,

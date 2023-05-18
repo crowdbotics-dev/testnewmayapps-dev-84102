@@ -1,5 +1,4 @@
 import { Text } from "react-native";
-import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled3 = () => {
@@ -9,7 +8,7 @@ const Untitled3 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.TATtiMGv}></View><Text style={styles.lMLyxcup}>Lorem ipsum…</Text></ScrollView>
+    }}><View style={styles.TATtiMGv}></View><Text style={styles.lMLyxcup}>{"Testing world"}</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -29,7 +28,13 @@ const styles = StyleSheet.create({
     height: 50,
     lineHeight: 14,
     fontSize: 14,
-    borderRadius: 0
+    borderRadius: 0,
+    position: "absolute",
+    left: 22,
+    top: -20,
+    transform: [{
+      rotate: "4deg"
+    }]
   }
 });
 export default Untitled3;
